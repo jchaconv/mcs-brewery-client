@@ -13,6 +13,7 @@ import org.springframework.web.client.RestTemplate;
 
 public class NIORestTemplateCustomizer implements RestTemplateCustomizer {
 
+
     public ClientHttpRequestFactory clientHttpRequestFactory() throws IOReactorException {
         final DefaultConnectingIOReactor ioreactor = new DefaultConnectingIOReactor(IOReactorConfig.custom().
                 setConnectTimeout(3000).
