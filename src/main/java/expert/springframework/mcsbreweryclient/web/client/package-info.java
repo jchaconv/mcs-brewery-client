@@ -1,0 +1,1 @@
+package expert.springframework.mcsbreweryclient.web.client;
